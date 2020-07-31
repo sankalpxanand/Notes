@@ -1,0 +1,164 @@
+<html>
+<head>
+    <title>ABOUT US</title>
+    <link rel="stylesheet" href="AboutUs.css">
+    
+
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.theme.css">
+    
+    
+    
+</head>
+<body>
+    <div class="heading">
+        <h1 class="about">A♭✺ṳт Uṧ
+            <a style="font-size: 30px; margin-left: 900px; text-decoration: none; color: blanchedalmond;" href=file:///Users/sankalp/Desktop/Deskstop/Javascript/Project/Home.html>
+                ʜᴏᴍᴇ
+            </a>
+        </h1>
+    </div>
+    <img class="me" src="me.jpg">
+    <h1>Sαɴĸαlp Aɴαɴd</h1>
+    <main>
+        <div class="div1">
+            Ｑａｕｌｉｆｉａｃｔｉｏｎｓ
+        </div>
+        <div class="div2">
+            Ｓｐｅｃｉｆｉｃａｔｉｏｎｓ
+        </div>
+        <div class="div3" id="d3">
+            <h3>ᴄʟᴀss 𝟷𝟶ᴛʜ</h3>
+            <ul style="list-style-type: disc;">
+            <li>
+                I did my class 10th from Bal Bharati Public School
+            </li>
+            <li>
+                I scored 8.8 CGPA
+            </li>
+            </ul>
+            <h3>ᴄʟᴀss 𝟷𝟸ᴛʜ</h3>
+            <ul style="list-style-type: disc;">
+                <li>
+                    I did my class 12th from DAV Public School
+                </li>
+                <li>
+                    I scored 93.2%
+                </li>
+            </ul>
+            <h3>ᴊᴇᴇ ᴍᴀɪɴs</h3>
+            <ul style="list-style-type: disc;">
+               <li>
+                   My january score was 43.3 percentle
+                </li>
+                <li>
+                    My april score was 86.6 percentle
+                </li>
+            </ul>
+            <h3>ɢʀᴀᴅᴜᴀᴛɪᴏɴ</h3>
+            <ul style="list-style-type: disc;">
+                <li>
+                    I'll complete my graduation in 2023 from Guru Gobind Singh Indrapasth University
+                </li>
+                <li>
+                    I've opted for B.Tech in Information Technology
+                </li>
+                <li>
+                    Currently now I'm in 3rd Semester
+                </li>
+            </ul>
+        </div>
+        <div class="div4" id="d4">
+            <h3>ᴄᴏᴍᴘᴜᴛᴇʀ ʟᴀɴɢᴜᴀɢᴇs</h3>
+            <ul style="list-style-type: disc;">
+                <li>
+                    C Language
+                </li>
+                <li>
+                    Data Structute
+                </li>
+                <li>
+                    HTML
+                </li>
+                <li>
+                    CSS
+                </li>
+                <li>
+                    Javascript
+                </li>
+            </ul>
+            <h3>ʜᴏʙʙɪᴇs</h3>
+            <ul style="list-style-type: disc;">
+                <li>
+                    Coding
+                </li>
+                <li>
+                    Football
+                </li>
+                <li>
+                    Guitar
+                </li>
+            </ul>
+            <h3>sᴛʀᴇɴɢᴛʜ</h3>
+            <ul style="list-style-type: disc;">
+                <li>
+                    Hardworking
+                </li>
+                <li>
+                    Kind
+                </li>
+                <li>
+                    Helpful
+                </li>
+            </ul> 
+            <h3>ʟᴀɴɢᴜᴀɢᴇs</h3>
+            <ul style="list-style-type: disc;">
+                <li>
+                    Hindi
+                </li>
+                <li>
+                    English
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+<script src="js/jquery.js" type="text/javascript"></script>
+
+<script src="jquery-ui/jquery-ui.js" type="text/javascript"></script>
+
+<script>
+    $("#d3").accordion
+        (
+            {
+                collapsible : true,
+                event : "click",
+                animate : 300, 
+                active : false,
+                heightStyle : true, 
+                icons : 
+                {
+                    header : "ui-icon-locked",activeHeader : "ui-icon-unlocked"
+                } 
+            }
+        );
+    $("#d4").accordion
+        (
+            {
+                collapsible : true,
+                event : "click",
+                animate : 300, 
+                active : false,
+                heightStyle : true, 
+                icons : 
+                {
+                    header : "ui-icon-locked",activeHeader : "ui-icon-unlocked"
+                } 
+            }
+        );
+</script>
+
+
+</html>
